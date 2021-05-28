@@ -26,3 +26,4 @@ hs_err_pid*
 clover-springcloud-green-eureka-server/.classpath
 clover-springcloud-green-eureka-service/.classpath
 clover-springcloud-green-eureka-client/.classpath
+clover-springcloud-green-feign/.classpath

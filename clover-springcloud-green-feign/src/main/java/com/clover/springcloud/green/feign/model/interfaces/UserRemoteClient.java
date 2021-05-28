@@ -1,4 +1,4 @@
-package com.clover.springboot.feign;
+package com.clover.springcloud.green.feign.model.interfaces;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

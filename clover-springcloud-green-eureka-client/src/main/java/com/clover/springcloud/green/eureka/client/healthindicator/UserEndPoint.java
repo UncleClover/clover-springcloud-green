@@ -1,4 +1,4 @@
-package com.clover.springboot.healthindicator;
+package com.clover.springcloud.green.eureka.client.healthindicator;
 
 import java.util.ArrayList;
 import java.util.HashMap;

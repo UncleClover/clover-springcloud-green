@@ -1,4 +1,4 @@
-package com.clover.springboot.controller;
+package com.clover.springcloud.green.eureka.client.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

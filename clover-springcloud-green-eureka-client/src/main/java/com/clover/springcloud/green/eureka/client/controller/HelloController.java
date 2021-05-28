@@ -1,4 +1,4 @@
-package com.clover.springboot.controller;
+package com.clover.springcloud.green.eureka.client.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.clover.springboot.feign.UserRemoteClient;
-import com.clover.springboot.utils.LogUtils;
+import com.clover.springcloud.green.eureka.client.utils.LogUtils;
+import com.clover.springcloud.green.feign.model.interfaces.UserRemoteClient;
 
 @RestController
 public class HelloController {

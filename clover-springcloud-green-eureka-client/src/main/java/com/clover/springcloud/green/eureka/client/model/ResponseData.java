@@ -1,4 +1,4 @@
-package com.clover.springboot.model;
+package com.clover.springcloud.green.eureka.client.model;
 
 public class ResponseData {
 	private Boolean status = true;

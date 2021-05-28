@@ -27,5 +27,6 @@
 		<module>clover-springcloud-green-eureka-server</module>
 		<module>clover-springcloud-green-eureka-service</module>
 		<module>clover-springcloud-green-eureka-client</module>
+		<module>clover-springcloud-green-feign</module>
 	</modules>
 </project>

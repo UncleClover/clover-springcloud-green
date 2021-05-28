@@ -1,4 +1,4 @@
-package com.clover.springboot.config;
+package com.clover.springcloud.green.eureka.client.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

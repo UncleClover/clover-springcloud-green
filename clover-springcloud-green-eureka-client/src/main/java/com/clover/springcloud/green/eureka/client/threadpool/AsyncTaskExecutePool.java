@@ -1,4 +1,4 @@
-package com.clover.springboot.threadpool;
+package com.clover.springcloud.green.eureka.client.threadpool;
 
 import java.lang.reflect.Method;
 import java.util.concurrent.Executor;
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.AsyncConfigurer;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
-import com.clover.springboot.config.TaskThreadPoolConfig;
+import com.clover.springcloud.green.eureka.client.config.TaskThreadPoolConfig;
 
 @Configuration
 public class AsyncTaskExecutePool implements AsyncConfigurer {

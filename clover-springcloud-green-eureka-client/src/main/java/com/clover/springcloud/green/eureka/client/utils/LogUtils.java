@@ -1,4 +1,4 @@
-package com.clover.springboot.utils;
+package com.clover.springcloud.green.eureka.client.utils;
 
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;

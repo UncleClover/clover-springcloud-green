@@ -1,4 +1,4 @@
-package com.clover.springboot.healthindicator;
+package com.clover.springcloud.green.eureka.client.healthindicator;
 
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health.Builder;

@@ -1,4 +1,4 @@
-package com.clover.springboot.globalException;
+package com.clover.springcloud.green.eureka.client.globalException;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.clover.springboot.model.ResponseData;
+import com.clover.springcloud.green.eureka.client.model.ResponseData;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
