@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 @EnableAsync
 @SpringBootApplication
-@EnableFeignClients(basePackages = "com.clover.springcloud.green.feign.model")
+@EnableFeignClients(basePackages = "com.clover.springcloud.green.feign")
 @EnableDiscoveryClient
 public class SpringbootApplication {
 	public static void main(String[] args) {

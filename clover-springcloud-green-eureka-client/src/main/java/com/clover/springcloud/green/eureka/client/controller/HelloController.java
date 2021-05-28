@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import com.clover.springcloud.green.eureka.client.utils.LogUtils;
-import com.clover.springcloud.green.feign.model.interfaces.UserRemoteClient;
+import com.clover.springcloud.green.feign.interfaces.UserRemoteClient;
 
 @RestController
 public class HelloController {
