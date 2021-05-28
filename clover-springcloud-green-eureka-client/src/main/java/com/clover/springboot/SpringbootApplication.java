@@ -1,0 +1,19 @@
+package com.clover.springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.scheduling.annotation.EnableAsync;
+
+
+@EnableAsync
+@SpringBootApplication
+@EnableFeignClients
+@EnableDiscoveryClient
+public class SpringbootApplication {
+	public static void main(String[] args) {
+		System.setProperty("server.port", "8089");
+		SpringApplication.run(SpringbootApplication.class, args);
+	}
+}
